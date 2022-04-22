@@ -1,0 +1,27 @@
+/* Estilos generales, fuentes, etc */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+:root {
+  --blue-600: #2563eb;
+  --yellow-500: #eab308;
+  --fuente-Monserrat: 'Montserrat Alternates', sans-serif;
+}
+body {
+  font-family: var(--fuente-Monserrat);
+}
+/* ------------------ Cristian --------------------*/
+/* Home */
+
+/* ------------------ ARACELI --------------------*/
+/* Autoridades */
+
+
+/* ------------------ EMI --------------------*/
+/* Institucion */
+
+/* ------------------ JULIAN --------------------*/
+/* Cartelera  */
+/* materialesdidacticos */
+
+/* ------------------ ANDRES --------------------*/
+/*  Contacto */
