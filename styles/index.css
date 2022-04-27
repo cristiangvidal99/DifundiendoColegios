@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
 :root {
-  --blue-600: #2563eb;
-  --yellow-500: #eab308;
+  --blue-600: #2f9cc7;
+  --blue-500: #10103d;
   --fuente-Monserrat: 'Montserrat Alternates', sans-serif;
+  --fuente-ABeeZee: 'ABeeZee', sans-serif;
 }
 body {
   font-family: var(--fuente-Monserrat);
@@ -16,9 +17,21 @@ body {
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
 
-
 /* ------------------ EMI --------------------*/
 /* Institucion */
+.thistory{
+ font-family: 'ABeeZee', sans-serif;
+}
+.history{
+  font-family: 'Montserrat', sans-serif;
+}
+.aula{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 822px;
+  top: 291px;
+}
 
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
