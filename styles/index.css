@@ -23,16 +23,21 @@
 body {
   font-family: var(--fuente-Monserrat);
   margin: 0;
+  width: 100%;
 }
 /* ------------------ Cristian --------------------*/
 /* Home */
 .header {
-  background-color: #2f9cc7;
+  /* background-color: #2f9cc7; */
   position: fixed;
   width: 100%;
   top: 0;
-  background-image: linear-gradient(to center, red, blue); 
+  background-image: radial-gradient(50% 50% at 50% 50%, #D0F2FF 0%, #3478C8 100%);
   
+  
+}
+img{
+  width: 100%;
 }
 .header-content {
   display: flex;
@@ -160,7 +165,9 @@ body {
 }
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
-
+.contenido img {
+  width: 100%;
+}
 /* ------------------ EMI --------------------*/
 /* Institucion */
 .thistory{
@@ -208,7 +215,8 @@ h2{
   border-radius: 30px;
   margin: auto ;
   background-color: #b8b4b5c1;
-  min-width: 250px;
+  min-width: 300px;
+  height: auto;
   width: 30%;
   /* width :30%; */
   box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
@@ -272,7 +280,25 @@ margin-bottom: 2rem; ;
   }
  }
 
-/* materialesdidacticos */
+/* materiales didacticos */
 
+/* Footer */
+footer{
+  background-image: radial-gradient(50% 50% at 50% 50%, #D0F2FF 0%, #3478C8 100%);
+  padding: 1rem;
+  font-size:  18px; ;
+}
+.contenedorFooter{
+  display: flex;
+  justify-content: space-around;
+  color: #D0F2FF;
+  margin: 0px;
+}
+ul{
+list-style: none;
+}
+.copyright{
+  text-align: center;
+}
 /* ------------------ ANDRES --------------------*/
 /*  Contacto */
