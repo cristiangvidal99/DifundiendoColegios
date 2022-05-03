@@ -160,7 +160,9 @@ body {
 }
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
-
+.contenido img {
+  width: 100%;
+}
 /* ------------------ EMI --------------------*/
 /* Institucion */
 .thistory{
