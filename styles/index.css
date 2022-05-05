@@ -167,14 +167,22 @@ img{
 }
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
-
+.contenido img {
+  width: 100%;
+}
 /* ------------------ EMI --------------------*/
 /* Institucion */
 .thistory{
  font-family: 'ABeeZee', sans-serif;
 }
 .history{
-  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: 
+  'historia aula';
+  gap: .5rem;
 }
 .aula{
   position: absolute;
