@@ -165,9 +165,19 @@ img{
 }
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
-.contenido img {
-  width: 100%;
+.contenido-img {
+  width: 400px;
+  padding: 30px;
 }
+.equipo-docente{
+
+}
+img{
+  width: 100%;
+  padding: 20px;
+}
+
+
 /* ------------------ EMI --------------------*/
 /* Institucion */
 .thistory{
