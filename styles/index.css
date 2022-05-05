@@ -170,26 +170,23 @@ img{
 }
 /* ------------------ EMI --------------------*/
 /* Institucion */
-.thistory{
- font-family: 'ABeeZee', sans-serif;
-}
-.history{
+.historymain{
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  flex-wrap: 
-  'historia aula';
-  gap: .5rem;
+  background-color: whitesmoke;
+}
+.hitoria{
+  text-align: center;
+  width: 400px;
+  height: 400px;
 }
 .aula{
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 822px;
-  top: 291px;
+  align-items: center;
+  width: 400px;
+  height:400px;;
 }
-
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
 
