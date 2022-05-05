@@ -171,12 +171,12 @@ img{
   width: 400px;
   padding: 30px;
 }
-.equipo-docente{
-
-}
 img{
   width: 100%;
   padding: 20px;
+  height:100%;
+  display: block;
+  justify-content:space-between;
 }
 
 
