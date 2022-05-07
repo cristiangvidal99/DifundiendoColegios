@@ -166,6 +166,13 @@ img{
     text-align: left;
   }
 }
+/* Login page  */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
 .contenido-img {
@@ -339,7 +346,7 @@ footer{
   margin: 0px;
 }
 ul{
-list-style: none;
+  list-style: none;
 }
 .copyright{
   text-align: center;
