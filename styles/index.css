@@ -178,6 +178,9 @@ body {
   min-height: 100vh;
   background-color: #e4e3e3;
 }
+.autoridades-img h2 {
+  text-align: center;
+}
 .card {
   position: relative;
   width: 300px;
