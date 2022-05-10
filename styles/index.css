@@ -35,6 +35,7 @@ body {
   width: 100%;
   top: 0;
   background-image: radial-gradient(50% 50% at 50% 50%, #D0F2FF 0%, #3478C8 100%);
+  z-index: 1;
 }
 .header-content {
   display: flex;
