@@ -1,12 +1,12 @@
-$(document).ready(function($) {
+function splitScroll(){
+	const controller = new ScrollMagic.controller();
 
-	console.clear(); 
-	ScrollOut({
-		cssProps:{
-			visibley:true,
-			viewporty:true,
-			scrollPercentY:true
-		},
-		thresjol:0.2
-	});
-});
+	new ScrollMagic.scene({
+		duration:'100%',
+		triggerElement:'.scrollHalf_grupo_image',
+		triggerHook:0
+	})
+	.setPin('.scrollHalf_grupo_contenido')
+	.addIndicators()
+	.addTo(controller);
+}

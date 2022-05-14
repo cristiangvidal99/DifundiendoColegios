@@ -244,57 +244,46 @@ body {
 }
 /* ------------------ EMI --------------------*/
 /* Institucion */
-.scrollHalf-historia{
-  box-sizing: border-box;
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
-  position: relative;
+#scrollHalf-historia{
+  height: 200vh;
+  display: flex;
 }
-.scrollHalf_grupo{
-  transition: all 200ms ease-in-out;
-}
+/*imagen efecto del aula*/
 .scrollHalf_grupo_image{
-  overflow:hidden;
-}
-.scrollHalf_contenido{
-  padding:3rem;
-}
-.scrollHalf_grupo[data-scroll="out"]{
-  opacity:0;
-}
-.scrollHalf_grupo[data-scroll="in"]{
-  opacity:calc(var(--visibley)*1.9);
-}
-/*media hitoria*/
-@media screen and (min-width:900px) {
-  .scrollHalf_grupo{
-    min-height: 100vh;
-  }
-  .scrollHalf_grupo_image{
-    position:fixed;
-    top:0;
-    left:0;
-    width: 50vw;
-  }
-  .scrollHalf_grupo_image img{
-    min-height: 100vh;
-    min-width: 50vW;
-  }
-  .scrollHalf_contenido{
-    margin: 0 3vw 0 52vw;
-  }
-}
-
-/*#history-container{
+  /*background-image: ;*/
+  width: 50%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0!important;
 }
-.aula{
-  width:200px;
-  height: 200px;
-}*/
+.scrollHalf_grupo_image img{
+  width: auto;
+  height: 300vh;
+}
+/*efecto p historia*/
+.scrollHalf_grupo_contenido{
+  width: 50%;
+}
+.scrollHalf_grupo_contenido div{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scrollHalf_grupo_contenido div> p{
+  width: 80%;
+  font-size: 17px;
+  line-height: 30px;
+}
+.scrollHalf_grupo_contenido div:nth-child(1){
+  background-color: #9f69fe;
+}
+.scrollHalf_grupo_contenido div:nth-child(2){
+  background-color: #3478C8;
+}
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
 
