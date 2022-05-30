@@ -35,6 +35,7 @@ body {
   width: 100%;
   top: 0;
   background-image: radial-gradient(50% 50% at 50% 50%, #D0F2FF 0%, #3478C8 100%);
+  z-index: 1;
 }
 .header-content {
   display: flex;
@@ -190,34 +191,119 @@ body {
 }
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
-.contenido-img {
-  margin-top: 7rem;
-}
-.foto-efecto{
-  width: 400px;
-  padding: 20px;
-}
-
-
-
-/* ------------------ EMI --------------------*/
-/* Institucion */
-.historymain{
+.autoridades-img{
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  background-color: whitesmoke;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e4e3e3;
 }
-.hitoria{
+.autoridades-img h2 {
   text-align: center;
-  width: 400px;
-  height: 400px;
 }
-.aula{
+.card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px;  
+}
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+.card .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .4);
+  text-align: center;
+}
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: fex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px;
+}
+.card .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.card .back p {
+  letter-spacing: 1px;
+}
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+/* ------------------ EMI --------------------*/
+/* Institucion */
+#scrollHalf-historia{
+  height: 200vh;
+  display: flex;
+}
+/*imagen efecto del aula*/
+.scrollHalf_grupo_image{
+  /*background-image: ;*/
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  width: 400px;
-  height:400px;;
+  margin: 0!important;
+}
+.scrollHalf_grupo_image img{
+  width: auto;
+  height: 300vh;
+}
+/*efecto p historia*/
+.scrollHalf_grupo_contenido{
+  width: 50%;
+}
+.scrollHalf_grupo_contenido div{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scrollHalf_grupo_contenido div> p{
+  width: 80%;
+  font-size: 17px;
+  line-height: 30px;
+}
+.scrollHalf_grupo_contenido div:nth-child(1){
+  background-color: #9f69fe;
+}
+.scrollHalf_grupo_contenido div:nth-child(2){
+  background-color: #3478C8;
 }
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
