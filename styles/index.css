@@ -28,10 +28,10 @@ body {
   width: 100%;
 }
 /* ------------------ Cristian --------------------*/
-/* Home */
+/* CRISTIAN: Home */
 .header {
   /* background-color: #2f9cc7; */
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
   background-image: radial-gradient(50% 50% at 50% 50%, #D0F2FF 0%, #3478C8 100%);
@@ -84,12 +84,25 @@ body {
 .icon {
   cursor: pointer;
 }
+.icono a i {
+  font-size: 2rem;
+  color: #f2f2f2;
+}
+.icono a i:hover {
+  color: #f2f2f2;
+}
+.login a {
+  display: none;
+}
 .topnav .icon {
   display: none;
 }
 .dropdown {
   float: left;
   overflow: hidden;
+}
+.responsive {
+  transition-delay: .5s;
 }
 .dropdown .dropbtn {
   font-size: 17px;    
@@ -117,9 +130,6 @@ body {
   display: block;
   text-align: left;
 }
-.topnav a:hover, .dropdown:hover .dropbtn {
-  color: black;
-}
 .dropdown-content a:hover {
   background-color: #10103d;
   color: white;
@@ -138,7 +148,9 @@ body {
   .header-content, .header-icon {
     display: none;
   }
- 
+  .login a{
+    display: block;
+  }
 }
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -159,8 +171,17 @@ body {
     width: 100%;
     text-align: left;
   }
+  .header-inputs {
+    display: none;
+  }
+  .login a{
+    display: block;
+  }
 }
-/* Login page  */
+.header-img-escuela img {
+  width: 100%;
+}
+/* CRISTIAN: Login page  */
 .login-form {
   display: flex;
   flex-direction: column;
