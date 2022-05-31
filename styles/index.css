@@ -28,10 +28,10 @@ body {
   width: 100%;
 }
 /* ------------------ Cristian --------------------*/
-/* Home */
+/* CRISTIAN: Home */
 .header {
   /* background-color: #2f9cc7; */
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
   background-image: radial-gradient(50% 50% at 50% 50%, #D0F2FF 0%, #3478C8 100%);
@@ -85,12 +85,25 @@ body {
 .icon {
   cursor: pointer;
 }
+.icono a i {
+  font-size: 2rem;
+  color: #f2f2f2;
+}
+.icono a i:hover {
+  color: #f2f2f2;
+}
+.login a {
+  display: none;
+}
 .topnav .icon {
   display: none;
 }
 .dropdown {
   float: left;
   overflow: hidden;
+}
+.responsive {
+  transition-delay: .5s;
 }
 .dropdown .dropbtn {
   font-size: 17px;    
@@ -118,9 +131,6 @@ body {
   display: block;
   text-align: left;
 }
-.topnav a:hover, .dropdown:hover .dropbtn {
-  color: black;
-}
 .dropdown-content a:hover {
   background-color: #10103d;
   color: white;
@@ -139,7 +149,9 @@ body {
   .header-content, .header-icon {
     display: none;
   }
- 
+  .login a{
+    display: block;
+  }
 }
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -160,8 +172,17 @@ body {
     width: 100%;
     text-align: left;
   }
+  .header-inputs {
+    display: none;
+  }
+  .login a{
+    display: block;
+  }
 }
-/* Login page  */
+.header-img-escuela img {
+  width: 100%;
+}
+/* CRISTIAN: Login page  */
 .login-form {
   display: flex;
   flex-direction: column;
@@ -244,22 +265,45 @@ body {
 }
 /* ------------------ EMI --------------------*/
 /* Institucion */
-.historymain{
+#scrollHalf-historia{
+  height: 200vh;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: whitesmoke;
 }
-.hitoria{
-  text-align: center;
-  width: 400px;
-  height: 400px;
-}
-.aula{
+/*imagen efecto del aula*/
+.scrollHalf_grupo_image{
+  /*background-image: ;*/
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  width: 400px;
-  height:400px;;
+  margin: 0!important;
+}
+.scrollHalf_grupo_image img{
+  width: auto;
+  height: 300vh;
+}
+/*efecto p historia*/
+.scrollHalf_grupo_contenido{
+  width: 50%;
+}
+.scrollHalf_grupo_contenido div{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scrollHalf_grupo_contenido div> p{
+  width: 80%;
+  font-size: 17px;
+  line-height: 30px;
+}
+.scrollHalf_grupo_contenido div:nth-child(1){
+  background-color: #9f69fe;
+}
+.scrollHalf_grupo_contenido div:nth-child(2){
+  background-color: #3478C8;
 }
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
