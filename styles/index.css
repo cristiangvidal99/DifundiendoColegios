@@ -14,6 +14,7 @@
 :root {
   --blue-600: #2f9cc7;
   --blue-500: #10103d;
+  --blue-400: #1d779b;
   --fuente-Monserrat: 'Montserrat Alternates', sans-serif;
   --fuente-ABeeZee: 'ABeeZee', sans-serif;
 }
@@ -97,7 +98,6 @@ nav .content .links{
 .wrapper input[type="checkbox"]{
   display: none;
 }
-/* Dropdown Menu code start */
 .content .links ul{
   position: absolute;
   background: var(--blue-500);
@@ -129,7 +129,6 @@ nav .content .links{
 .content .links ul li:hover ul{
   top: 0;
 }
-/* Responsive code start */
 @media screen and (max-width: 1250px){
   .wrapper nav{
     max-width: 100%;
@@ -158,7 +157,7 @@ nav .content .links{
   nav .content .links{
     display: block;
     position: fixed;
-    background: var(--blue-600);
+    background: var(--blue-400);
     height: 100%;
     width: 100%;
     top: 70px;
@@ -186,7 +185,6 @@ nav .content .links{
   .content .links li a.desktop-link{
     display: none;
   }
-  /* dropdown responsive code start */
   .content .links ul,
   .content .links ul ul{
     position: static;
