@@ -22,7 +22,7 @@ function validarCampos() {
         icon: 'error',
         confirmButtonText: 'Continuar'
       })
-    }, 1000);
+    }, 3000);
   }
 }
 // validarCampos();
