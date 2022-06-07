@@ -269,23 +269,9 @@ body {
   height: 200vh;
   display: flex;
 }
-/*imagen efecto del aula*/
-.scrollHalf_grupo_image{
-  /*background-image: ;*/
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0!important;
-}
-.scrollHalf_grupo_image img{
-  width: auto;
-  height: 300vh;
-}
-/*efecto p historia*/
 .scrollHalf_grupo_contenido{
-  width: 50%;
+  width: 100%;
+  color:white;
 }
 .scrollHalf_grupo_contenido div{
   height:100vh;
@@ -299,11 +285,8 @@ body {
   font-size: 17px;
   line-height: 30px;
 }
-.scrollHalf_grupo_contenido div:nth-child(1){
-  background-color: #9f69fe;
-}
-.scrollHalf_grupo_contenido div:nth-child(2){
-  background-color: #3478C8;
+.scrollHalf_grupo_contenido{
+  background-image: url('../src/img/Letras.png');
 }
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
