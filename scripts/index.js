@@ -1,12 +1,32 @@
-// menu hamburguesa
-const menu = document.getElementById("myTopnav");
-menu.addEventListener('click', openMenu)
+const usuario = document.querySelector('#usuario');
+const password = document.querySelector('#password');
+const formulario = document.querySelector('#login-form');
 
-function openMenu() {
-  if (menu.className === "topnav") {
-    menu.className += " responsive";
+formulario.addEventListener('submit', enviarForm);
 
+function validarCampos() {
+  if (usuario.value === "admin" && password.value === "admin") {
+    Swal.fire({
+      title: 'Correcto',
+      icon: 'success',
+      text: 'Ha iniciado correctamente sesión',
+    })
+    setTimeout(() => {
+      window.location.href = "../admin/administrador.html"
+    }, 3000);
   } else {
-    menu.className = "topnav";
+    setTimeout(() => {
+      Swal.fire({
+        title: 'Error!',
+        text: 'Ha ocurrido un error',
+        icon: 'error',
+        confirmButtonText: 'Continuar'
+      })
+    }, 1000);
   }
+}
+// validarCampos();
+function enviarForm(e) {
+  e.preventDefault();
+  validarCampos();
 }

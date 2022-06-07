@@ -188,6 +188,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+.login-input {
+  padding: .5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.login-input::placeholder {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--blue-500);
+}
+.login-input:focus {
+  background-color: var(--blue-500);
+  color: #fff;
+  border: white solid 2px;
 }
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
@@ -354,7 +371,7 @@ margin-bottom: 2rem; ;
   font-size: 17px;
   font-weight: 700;
   color: white;
-  
+  cursor: pointer;
   transition: all .5s ease-in-out;
   animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
  }
