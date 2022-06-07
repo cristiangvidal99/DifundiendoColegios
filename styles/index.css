@@ -288,6 +288,11 @@ body {
 .scrollHalf_grupo_contenido{
   background-image: url('../src/img/Letras.png');
 }
+/*Contacto*/
+.calendario-academico iframe{
+  width: auto;
+  border-radius: 0%;
+}
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
 
