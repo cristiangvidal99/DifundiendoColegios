@@ -253,6 +253,18 @@ nav .content .links{
   color: #fff;
   border: white solid 2px;
 }
+.footer-login {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-mapa iframe {
+  width: 300px;
+  height: 300px;
+  border-radius: 2px;
+}
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
 .autoridades-img{
