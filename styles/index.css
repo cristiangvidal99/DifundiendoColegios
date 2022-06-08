@@ -345,23 +345,9 @@ nav .content .links{
   height: 200vh;
   display: flex;
 }
-/*imagen efecto del aula*/
-.scrollHalf_grupo_image{
-  /*background-image: ;*/
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0!important;
-}
-.scrollHalf_grupo_image img{
-  width: auto;
-  height: 300vh;
-}
-/*efecto p historia*/
 .scrollHalf_grupo_contenido{
-  width: 50%;
+  width: 100%;
+  color:white;
 }
 .scrollHalf_grupo_contenido div{
   height:100vh;
@@ -375,18 +361,26 @@ nav .content .links{
   font-size: 17px;
   line-height: 30px;
 }
-.scrollHalf_grupo_contenido div:nth-child(1){
-  background-color: #9f69fe;
+.scrollHalf_grupo_contenido{
+  background-image: url('../src/img/Letras.png');
 }
-.scrollHalf_grupo_contenido div:nth-child(2){
-  background-color: #3478C8;
-}
-/*Contacto*/
-.calendario-academico iframe{
-  width: 80%;
-  border-radius: 0%;
+
+/*Calendario*/
+.calendar-conteiner{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center  ;
+  margin-bottom: 50px;
+}
+.text-calendar{
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+.calendario-academico iframe{
+  width: 150vh;
+  height: 80vh;
+  border-radius: 0%;
 }
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
