@@ -307,8 +307,10 @@ body {
 }
 /*Contacto*/
 .calendario-academico iframe{
-  width: auto;
+  width: 80%;
   border-radius: 0%;
+  display: flex;
+  justify-content: center;
 }
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
