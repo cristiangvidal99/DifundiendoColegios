@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/index.css">
+    <title>Escuela Primaria N° 44 Juana Paula Manso</title>
+</head>
+
+<body>
+    <header class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="content">
+                <div class="logo"><a href="#">Escuela N° 44</a></div>
+                <ul class="links">
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">Institución <i class="fa-solid fa-angle-down"></i></a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Institución <i class="fa-solid fa-angle-down"></i></label>
+                        <ul>
+                            <li><a href="../pages/autoridades.html">Autoridades</a></li>
+                            <li><a href="../pages/institucion.html">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">Novedades <i class="fa-solid fa-angle-down"></i></a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Novedades <i class="fa-solid fa-angle-down"></i></label>
+                        <ul>
+                            <li><a href="../pages/cartelera.html">Cartelera</a></li>
+                            <li><a href="../pages/materialesdidacticos.html">Materiales Didácticos</a></li>
+                            <!-- Por si queremos agregar otro desplegable -->
+                            <!-- <li>
+                    <a href="#" class="desktop-link">Mas item</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">Mas item</label>
+                    <ul>
+                    <li><a href="#">Hola</a></li>
+                    <li><a href="#">Hola</a></li>
+                    <li><a href="#">hola</a></li>
+                    </ul>
+                </li> -->
+                        </ul>
+                    </li>
+                    <li><a href="calendario.html">Calendario Académico</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <a href="../pages/login/login.html" class="search-icon"><i class="fa-solid fa-user"></i></a>
+        </nav>
+    </header>
+        <!--Calendario => Emilce-->
+        <div class="calendar-conteiner">
+            <div class="text-calendar">
+                <h1>Calendario Académico</h1>
+            </div>
+            <div class="calendario-academico">
+                <iframe 
+                src="https://calendar.google.com/calendar/embed?src=escuela44paulajmanzo%40gmail.com&ctz=America%2FArgentina%2FBuenos_Aires" 
+                style="border: 0" 
+                width="800"
+                height="600" 
+                frameborder="0" 
+                scrolling="no">
+            </iframe>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="contenedorFooter">
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> 1169109916</li>
+                    <li><i class="fa-solid fa-location-dot"></i> 485 calle, Florencio Varela</li>
+                </ul>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i> google@gmail.com</li>
+                    <li><i class="fa-brands fa-facebook"></i> Escuela N°44</li>
+                </ul>
+            </div>
+            <p class="copyright"> <i class="fa-solid fa-copyright"></i> Copyright 2022. Todos los derechos reservados.
+            </p>
+        </footer>
+        <script src="scripts/index.js"></script>
+        <script src="https://kit.fontawesome.com/dab5819558.js"></script>      
+</body>
+</html>
