@@ -28,6 +28,8 @@ body {
   background: var(--blue-600);
   position: fixed;
   width: 100%;
+  top: 0;
+  z-index: 2;
 }
 .wrapper nav{
   position: relative;
@@ -54,6 +56,7 @@ nav .content .links{
 .content .links li{
   list-style: none;
   line-height: 70px;
+  text-decoration: none;
 }
 .content .links li a,
 .content .links li label{
