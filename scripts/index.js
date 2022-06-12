@@ -15,13 +15,13 @@ function validarCampos() {
       window.location.href = "../admin/administrador.html"
     }, 1000);
   } else {
-    setTimeout(() => {
-      Swal.fire({
-        title: 'Error!',
-        text: 'Ha ocurrido un error',
-        icon: 'error',
-      })
-    }, 1000);
+    // setTimeout(() => {
+    //   Swal.fire({
+    //     title: 'Error!',
+    //     text: 'Ha ocurrido un error',
+    //     icon: 'error',
+    //   })
+    // }, 1000);
   }
 }
 // validarCampos();
