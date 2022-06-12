@@ -258,6 +258,9 @@ nav .content .links{
 }
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
+.titulo-autoridades {
+  margin-top: 80px;
+}
 .autoridades-img{
   width: 100%;
   display: flex;
