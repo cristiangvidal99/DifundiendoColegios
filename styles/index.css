@@ -333,7 +333,7 @@ nav .content .links{
 /* ------------------ EMI --------------------*/
 /* Institucion */
 #scrollHalf-historia{
-  height: 200vh;
+  height: 300vh;
   display: flex;
 }
 .scrollHalf_grupo_contenido{
@@ -353,7 +353,7 @@ nav .content .links{
   line-height: 30px;
 }
 .scrollHalf_grupo_contenido{
-  background-image: url('../src/img/Letras.png');
+  background-image: url('../src/img/H.png');
 }
 
 /*Calendario*/
