@@ -1,0 +1,124 @@
+*   [33m45e55ac[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[31m|[m[32m\[m  
+[31m|[m * [33m9636d2d[m margin top
+[31m|[m * [33m8702bb1[m araceli: actualice el nav y titulo
+[31m|[m * [33m6bafea4[m actualizacion de nav y titulo
+[31m|[m * [33m8b87c3a[m Emi:Historia de Juana y Objetivo y agregue las imagenes del colegio a la carpeta img
+* [32m|[m [33m316aced[m nuevo carrusel
+* [32m|[m [33m7cd2015[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[33m|[m[32m\[m[32m|[m 
+[33m|[m * [33m05e1c2d[m Agregue carrousel , algo de estilos al contacto, vincule cada enlaze de materiales con su respectivo google drive, agregue rutas de el materiales y cartelera.
+[33m|[m *   [33m06532ca[m  Commit prueba
+[33m|[m [35m|[m[36m\[m  
+[33m|[m * [36m|[m [33mb022eeb[m prueba
+* [36m|[m [36m|[m   [33me868e1e[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;31m|[m[36m\[m [36m\[m [36m\[m  
+[1;31m|[m [36m|[m [36m|[m[36m/[m  
+[1;31m|[m [36m|[m[36m/[m[36m|[m   
+[1;31m|[m * [36m|[m [33mdf85f21[m i
+* [1;32m|[m [36m|[m [33m87244e2[m estilos login
+[1;32m|[m[1;32m/[m [36m/[m  
+* [36m|[m   [33mbd5ca86[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;33m|[m[1;34m\[m [36m\[m  
+[1;33m|[m * [36m|[m [33m04f169a[m Cristian: reparé un error que commitee yo => navbar nuevo
+* [1;34m|[m [36m|[m [33m7588a7d[m Emi: calendario academico
+[1;34m|[m[1;34m/[m [36m/[m  
+* [36m|[m   [33m5fa167d[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;35m|[m[1;36m\[m [36m\[m  
+[1;35m|[m * [36m\[m   [33md155084[m Cristian: cambio de rutas JS y estilos login
+[1;35m|[m [31m|[m[32m\[m [36m\[m  
+[1;35m|[m * [32m|[m [36m|[m [33mb6082fe[m Cristian: cambio de rutas JS y estilos login
+* [32m|[m [32m|[m [36m|[m [33m20c31de[m Emi:Calendario
+[32m|[m [32m|[m[32m/[m [36m/[m  
+[32m|[m[32m/[m[32m|[m [36m|[m   
+* [32m|[m [36m|[m [33me4dc20a[m Emi:Prueba
+* [32m|[m [36m|[m [33mbc819e8[m Emi
+[32m|[m[32m/[m [36m/[m  
+* [36m|[m [33ma2c96cd[m Cristian: Estilos navbar
+* [36m|[m [33m2b7b166[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[33m|[m[36m\[m[36m|[m 
+[33m|[m *   [33mddc859d[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[33m|[m [35m|[m[36m\[m  
+[33m|[m * [36m|[m [33m74eb9a5[m titulos
+* [36m|[m [36m|[m [33mf89a932[m Cristian: cambie el navbar
+[36m|[m [36m|[m[36m/[m  
+[36m|[m[36m/[m[36m|[m   
+* [36m|[m   [33md84fe5b[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;31m|[m[1;32m\[m [36m\[m  
+[1;31m|[m * [36m|[m [33m09044c8[m Emi:agregue cambios en el scroll de la historia
+[1;31m|[m * [36m|[m [33mde6ac4a[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;31m|[m [1;33m|[m[36m\[m[36m|[m 
+[1;31m|[m [1;33m|[m * [33md339e4f[m ara:imagenes
+[1;31m|[m [1;33m|[m * [33mfbb588f[m titulo autoridades
+[1;31m|[m [1;33m|[m * [33mca0f4d4[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;31m|[m [1;33m|[m *   [33mc760a3f[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;31m|[m [1;33m|[m [1;35m|[m[1;36m\[m  
+[1;31m|[m [1;33m|[m * [1;36m|[m [33m92c659b[m efecto imagenes
+[1;31m|[m * [1;36m|[m [1;36m|[m [33m2b70ae9[m Emi:Agrego cambio en historia- scroll
+* [1;36m|[m [1;36m|[m [1;36m|[m [33m74794ae[m Cristian: login page,estilos, modifique navegacion, sweetalert
+[1;36m|[m [1;36m|[m[1;36m_[m[1;36m|[m[1;36m/[m  
+[1;36m|[m[1;36m/[m[1;36m|[m [1;36m|[m   
+* [1;36m|[m [1;36m|[m   [33m8717dc4[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[31m|[m[1;36m\[m [1;36m\[m [1;36m\[m  
+[31m|[m [1;36m|[m [1;36m|[m[1;36m/[m  
+[31m|[m [1;36m|[m[1;36m/[m[1;36m|[m   
+[31m|[m * [1;36m|[m [33m9c37462[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[31m|[m [33m|[m[1;36m\[m[1;36m|[m 
+[31m|[m * [1;36m|[m [33m07910b4[m Araceli:Arregle fotos
+[31m|[m * [1;36m|[m   [33mbeb1500[m correcciones
+[31m|[m [35m|[m[36m\[m [1;36m\[m  
+[31m|[m * [36m|[m [1;36m|[m [33m888a1f1[m correcciones
+* [36m|[m [36m|[m [1;36m|[m [33m9621765[m Cristian estilos nav responsive
+[1;36m|[m [36m|[m[1;36m_[m[36m|[m[1;36m/[m  
+[1;36m|[m[1;36m/[m[36m|[m [36m|[m   
+* [36m|[m [36m|[m [33m0bc2ac3[m Cristian: se agrego pantalla login a las rutas
+[36m|[m [36m|[m[36m/[m  
+[36m|[m[36m/[m[36m|[m   
+* [36m|[m [33mbd5dc5b[m Se agregan cambios a historia
+[1;31m|[m[36m\[m[36m|[m 
+[1;31m|[m * [33m4d8ffc1[m fotos
+[1;31m|[m *   [33m4fe7994[m cambio fotos
+[1;31m|[m [1;33m|[m[1;34m\[m  
+[1;31m|[m [1;33m|[m *   [33mf60e2d3[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;31m|[m [1;33m|[m [1;35m|[m[1;36m\[m  
+[1;31m|[m [1;33m|[m * [1;36m|[m [33m0c846a8[m Juli : materiales didacticos
+[1;31m|[m [1;33m|[m * [1;36m|[m [33m5d709ad[m Ajuli : gregue diseño materiales didacticos
+[1;31m|[m * [1;36m|[m [1;36m|[m [33m9f7adce[m Arregle imagenes
+[1;31m|[m [1;36m|[m [1;36m|[m[1;36m/[m  
+[1;31m|[m [1;36m|[m[1;36m/[m[1;36m|[m   
+* [1;36m/[m [1;36m|[m [33m2b210d7[m estilo a historia
+[1;36m|[m[1;36m/[m [1;36m/[m  
+* [1;36m|[m   [33m0ad2b4f[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[31m|[m[32m\[m [1;36m\[m  
+[31m|[m * [1;36m|[m [33m1493ca9[m Agregue navegacion
+[31m|[m [33m|[m[1;36m\[m[1;36m|[m 
+[31m|[m [33m|[m *   [33m8c633fe[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[31m|[m [33m|[m [35m|[m[36m\[m  
+[31m|[m [33m|[m * [36m|[m [33mf15fc31[m Agregue footer , rutas cartelera , materiales didacticos , witdh 100% imagen home
+[31m|[m [33m|[m * [36m|[m [33m0c8524b[m solucion desborde imagenes y gradiente en el header
+[31m|[m * [36m|[m [36m|[m [33ma0d0adc[m Agregue navegacion
+* [36m|[m [36m|[m [36m|[m [33m6f3ea01[m Se agregan cambios en el nav
+[36m|[m [36m|[m[36m_[m[36m|[m[36m/[m  
+[36m|[m[36m/[m[36m|[m [36m|[m   
+* [36m|[m [36m|[m [33m61cc47f[m Agregue plantilla de contacto y mapa
+[36m|[m[36m/[m [36m/[m  
+* [36m|[m [33mdd0bc4b[m sin cambios
+[1;31m|[m[36m\[m[36m|[m 
+[1;31m|[m *   [33m09bd954[m Cambios subidos
+[1;31m|[m [1;33m|[m[1;34m\[m  
+[1;31m|[m [1;33m|[m *   [33md5d81e6[m Merge branch 'main' of https://github.com/toralesandres/Proyecto-DifundiendoColegios
+[1;31m|[m [1;33m|[m [1;35m|[m[1;36m\[m  
+[1;31m|[m [1;33m|[m [1;35m|[m * [33m033daba[m Agregue cartelera, en el home
+[1;31m|[m [1;33m|[m * [1;36m|[m [33m2e7a701[m header, navbar, responsive design y estilos
+[1;31m|[m [1;33m|[m [1;36m|[m[1;36m/[m  
+[1;31m|[m * [1;36m|[m [33me842953[m Estilo de la Historia
+[1;31m|[m * [1;36m|[m [33mfe788b4[m Imagen del aula
+[1;31m|[m [1;36m|[m[1;36m/[m  
+[1;31m|[m * [33m414d4c6[m Agregue la imagen del Aula
+[1;31m|[m * [33m1dfd2f8[m paleta de colores
+* [1;36m|[m [33mc1330a1[m sin cambios
+[1;36m|[m[1;36m/[m  
+* [33m775d520[m Se agrega font Abeezee
+* [33mfbcd9e4[m se agrega comentario de division
+* [33m3464d54[m Se agrerga historia del instituto
+* [33mbf723eb[m estructura base de la pagina, estilos y pages

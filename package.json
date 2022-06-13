@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@glidejs/glide": "^3.5.2",
     "sweetalert2": "^11.4.17"
   }
 }
