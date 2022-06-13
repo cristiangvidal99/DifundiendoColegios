@@ -1,0 +1,13 @@
+.contenedor{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(../src/img/presentacion.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+ p{
+    color: red;
+ }

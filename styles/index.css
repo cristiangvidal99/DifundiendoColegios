@@ -527,14 +527,42 @@ ul{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 2rem;
+  margin: auto;
   box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
-  background-color: #b8b4b5c1;
-  border-radius: 30px;
-  padding: 2rem;
+  background-color: #b8b4b5c1; /*color del fondo */
+  border-radius: 30px; /* border del fondo contenedor*/
+  padding: 2rem; /* padding superior del contenedor*/
+  padding-top: 3rem;
+  margin-top: 2rem;
 }
+
 iframe{
   width: 450px;
+  height: 450px;
   border: none;
-  border-radius: 15%;
+  border-radius: 5%;
+}
+
+.formulario{
+  text-align: center;
+}
+
+.form-input{
+  font-family: inherit;
+  width: 25rem;
+  font-size: 1rem;
+  padding: .8em 1em;
+  outline: none;
+  border: none;
+  border 1px solid 
+  border-radius: 0.2em;
+}
+
+.form-mensaje{
+  width: 25rem;
+  font-family: inherit;
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: .5em;
+  outline: none;
 }
