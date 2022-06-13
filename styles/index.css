@@ -22,47 +22,61 @@ body {
   font-family: var(--fuente-Monserrat);
   width: 100%;
 }
+li a {
+  text-decoration: none;
+  list-style: none;
+}
 /* ------------------ Cristian --------------------*/
 /* CRISTIAN: Home */
+.swiper {
+  width: 100%;
+  height: 750px;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .wrapper{
   background: var(--blue-600);
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 2;
 }
 .wrapper nav{
-  position: relative;
   display: flex;
-  max-width: calc(100% - 200px);
-  margin: 0 auto;
-  height: 70px;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav .content{
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 nav .content .links{
-  margin-left: 80px;
   display: flex;
+  align-items: center;
+  justify-content: space-around;  
 }
 .content .logo a{
   color: #fff;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: bold;
 }
 .content .links li{
   list-style: none;
-  line-height: 70px;
   text-decoration: none;
 }
 .content .links li a,
 .content .links li label{
   color: #fff;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: bold;
   padding: 9px 17px;
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -89,15 +103,6 @@ nav .content .links{
 .wrapper #show-search:checked ~ .search-icon i::before{
   content: "\f00d";
 }
-.wrapper .search-box{
-  position: absolute;
-  height: 100%;
-  max-width: calc(100% - 50px);
-  width: 100%;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
 .wrapper input[type="checkbox"]{
   display: none;
 }
@@ -109,14 +114,18 @@ nav .content .links{
   opacity: 0;
   visibility: hidden;
 }
+/* links extendible */
 .content .links li:hover > ul{
   top: 70px;
   opacity: 1;
   visibility: visible;
   transition: all 0.3s ease;
 }
+.logo a {
+  text-decoration: none;
+}
 .content .links ul li a{
-  display: block;
+  display: flex;
   width: 100%;
   line-height: 30px;
   border-radius: 0px!important;
@@ -132,25 +141,7 @@ nav .content .links{
 .content .links ul li:hover ul{
   top: 0;
 }
-@media screen and (max-width: 1250px){
-  .wrapper nav{
-    max-width: 100%;
-    padding: 0 20px;
-  }
-  nav .content .links{
-    margin-left: 30px;
-  }
-  .content .links li a{
-    padding: 8px 13px;
-  }
-  .wrapper .search-box{
-    max-width: calc(100% - 100px);
-  }
-  .wrapper .search-box input{
-    padding: 0 100px 0 15px;
-  }
-}
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
   .wrapper .menu-icon{
     display: block;
   }
@@ -170,6 +161,7 @@ nav .content .links{
     overflow-y: auto;
     padding-bottom: 100px;
     transition: all 0.3s ease;
+    z-index: 2;
   }
   nav #show-menu:checked ~ .content .links{
     left: 0%;
@@ -196,6 +188,7 @@ nav .content .links{
     background: none;
     max-height: 0px;
     overflow: hidden;
+    z-index: 2;
   }
   .content .links #show-features:checked ~ ul,
   .content .links #show-services:checked ~ ul,
@@ -228,6 +221,9 @@ nav .content .links{
   .wrapper .search-box input{
     padding-right: 30px;
   }
+  .logo div a {
+    font-size: 10px;
+  }
 }
 .header-img-escuela img {
   width: 100%;
@@ -240,21 +236,39 @@ nav .content .links{
   align-items: center;
   gap: 1rem;
 }
+.login-img img {
+  margin: 0 auto;
+  width: 100%;
+}
 .login-input {
   padding: .5rem;
-  border-radius: 5px;
-  font-size: 1.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-align: center;
   font-weight: bold;
+  border: 3px solid var(--blue-600);
+  outline: none;
 }
-.login-input::placeholder {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--blue-500);
+.login-submit {
+  font-size: 1.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: white;
+  border-radius: 2rem;
+  border: solid var(--blue-600);
+  transition: .5s;
+  cursor: pointer;
 }
-.login-input:focus {
-  background-color: var(--blue-500);
-  color: #fff;
-  border: white solid 2px;
+.login-submit:hover {
+  color: white;
+  background-color: var(--blue-600);
+  transition-delay: 0s ;
+}
+@media (max-width: 480px) {
+  .login-input {
+    display: block;
+    width: 100%;
+  }
 }
 /* ------------------ ARACELI --------------------*/
 /* Autoridades */
@@ -362,6 +376,7 @@ nav .content .links{
 
 /*Calendario*/
 .calendar-conteiner{
+  background-color: #e4e3e3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -374,7 +389,7 @@ nav .content .links{
 }
 .calendario-academico iframe{
   width: 150vh;
-  height: 80vh;
+  height: 600;
   border-radius: 0%;
 }
 /* ------------------ JULIAN --------------------*/
