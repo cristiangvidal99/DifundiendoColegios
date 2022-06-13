@@ -381,14 +381,17 @@ nav .content .links{
   flex-direction: column;
   justify-content: center;
   align-items: center  ;
-  margin-bottom: 50px;
+  border-radius: 15px;
+  background-color: #e4e3e3;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
 }
 .text-calendar{
-  margin-top: 100px;
   margin-bottom: 25px;
 }
 .calendario-academico iframe{
-  width: 150vh;
+  width: 130vh;
   height: 600;
   border-radius: 0%;
 }
@@ -520,7 +523,8 @@ margin-bottom: 2rem; ;
 }
 /* Footer */
 footer{
-  background-image: radial-gradient(50% 50% at 50% 50%, #D0F2FF 0%, #3478C8 100%);
+  /*background-image: radial-gradient(50% 50% at 50% 50%, #D0F2FF 0%, #3478C8 100%);*/
+  background-color:  var(--blue-400);
   padding: 1rem;
   font-size:  18px; ;
 }
