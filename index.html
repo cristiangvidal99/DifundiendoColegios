@@ -6,18 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-/>
-  <!-- CSS only -->
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
-<!-- JavaScript Bundle with Popper -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
-
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <title>Escuela N° 44 Paula Juana Manso</title>
 </head>
-
 <body>
   <!-- Home => Cristian -->
   <header class="wrapper">
@@ -47,17 +38,6 @@
             <ul>
               <li><a href="src/pages/cartelera.html">Cartelera</a></li>
               <li><a href="src/pages/materialesdidacticos.html">Materiales Didácticos</a></li>
-              <!-- Por si queremos agregar otro desplegable -->
-              <!-- <li>
-                <a href="#" class="desktop-link">Mas item</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">Mas item</label>
-                <ul>
-                  <li><a href="#">Hola</a></li>
-                  <li><a href="#">Hola</a></li>
-                  <li><a href="#">hola</a></li>
-                </ul>
-              </li> -->
             </ul>
           </li>
           <li><a href="src/pages/calendario.html">Calendario Académico</a></li>
@@ -72,15 +52,16 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide"><img src="src/imgCarrousel/1.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="src/imgCarrousel/2.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="src/imgCarrousel/3.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="src/imgCarrousel/4.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="src/imgCarrousel/1.jpg" alt="Imagen 1"></div>
+    <div class="swiper-slide"><img src="src/imgCarrousel/2.jpg" alt="Imagen 2"></div>
+    <div class="swiper-slide"><img src="src/imgCarrousel/3.jpg" alt="Imagen 3"></div>
+    <div class="swiper-slide"><img src="src/imgCarrousel/4.jpg" alt="Imagen 4"></div>
+    <div class="swiper-slide"><img src="src/imgCarrousel/5.jpg" alt="Imagen 5"></div>
     ...
   </div>
   <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev" style="color:#1d779b;"></div>
+  <div class="swiper-button-next" style="color:#1d779b;"></div>
 </div>
   <!--Carteleraa => Julian-->
   <h2>Cartelera de noticias</h2>
@@ -198,6 +179,9 @@
   direction: 'horizontal',
   loop: true,
   effect: 'fade',
+  autoplay: {
+   delay: 2000,
+ },
   fadeEffect: {
     crossFade: true
   },
