@@ -357,6 +357,7 @@ nav .content .links{
 .scrollHalf_grupo_contenido{
   width: 100%;
   color:white;
+  text-shadow: #0001;
 }
 .scrollHalf_grupo_contenido div{
   height:100vh;
@@ -364,8 +365,9 @@ nav .content .links{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
-.scrollHalf_grupo_contenido div> p{
+.scrollHalf_grupo_contenido div p{
   width: 80%;
   font-size: 17px;
   line-height: 30px;
@@ -373,12 +375,24 @@ nav .content .links{
 .scrollHalf_grupo_contenido{
   background-image: url('../src/img/H.png');
 }
+@media (max-width:600px) {
+  .scrollHalf_grupo_contenido {
+    width: 300px;
+    height: auto;
+  }
+}
+@media (max-width:480px) {
+  .scrollHalf_grupo_contenido {
+    width: 100%;
+    height: auto;
+  }
+}
 
 /*Calendario*/
 .calendar-conteiner{
   background-color: #e4e3e3;
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
@@ -388,14 +402,47 @@ nav .content .links{
   box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
 }
 .text-calendar{
+  margin-top: 20px;
   margin-bottom: 25px;
+  text-align: center;
 }
 .calendario-academico iframe{
   width: 150vh;
   height: 80vh;
   border-radius: 15px;
 }
-/*Panel administrativo*/
+.colors{
+  display:flex;
+  flex-direction: row;
+}
+.colors div img{
+  margin-right: 15px;
+}
+.colors-conteiner{
+  margin-top: 40px;
+}
+.span-calendar{
+  line-height: 30px;
+  
+}
+#calendar-hs{
+  display:flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+@media (max-width:600px) {
+  .calendario-academico iframe{
+    width: 300px;
+    height: auto;
+  }
+}
+@media (max-width:480px) {
+  .calendario-academico iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+/*-------------Panel administrativo--------------*/
 /*contenedor*/
 .container-panel{
   display: flex;
@@ -443,6 +490,12 @@ nav .content .links{
 .h2-admin{
   margin-top: 50px;
 }
+.li-admin{
+  list-style: none;
+  text-align: center;
+  line-height: 40px;
+  
+}
 .form-panel{
   display: flex;
   flex-direction: column;
@@ -483,7 +536,7 @@ nav .content .links{
 }
 .panel-aside {
   width: 300px;
-  height: 700px;
+  height: 600px;
   background-color: #e4e3e3;
   padding: 1rem;
   border-radius: 10px;
