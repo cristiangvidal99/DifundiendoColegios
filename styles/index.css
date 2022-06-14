@@ -402,7 +402,7 @@ nav .content .links{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 85vh;
+  height: auto;
   border-radius: 15px;
   background-color: #e4e3e3;
   padding: 2rem;
@@ -418,6 +418,9 @@ nav .content .links{
   cursor: pointer;
   padding: 1rem;
   margin: 0 auto;
+}
+#panel-submit {
+  margin-top: 1rem;
 }
 #panel-submit:hover {
   color: white;
@@ -445,24 +448,58 @@ nav .content .links{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 .form-panel label{
   font-size: 1.2rem;
   font-weight: bold;
 }
+/* aside styles */
+.panel-aside-navbar li {
+  list-style: none;
+}
+.panel-aside-navba li a {
+  text-decoration: none; 
+  color: white;
+}
+.panel-aside-navba li a:link {
+  text-decoration: none;
+  color: white;
+}
+.panel-aside-navba li a:visited {
+  text-decoration: none;
+  color: white;
+}
+.panel-aside-navba li a:active {
+  text-decoration: none; 
+  color: white;
+}
+.panel-aside-navba li a i {
+  background-color: green;
+  color: white;
+  padding: 1rem;
+}
+.form-panel textarea {
+  width: 100%;
+}
 .panel-aside {
-  width: 290px;
-  height: auto;
+  width: 300px;
+  height: 700px;
   background-color: #e4e3e3;
   padding: 1rem;
   border-radius: 10px;
   box-shadow: -2px 10px 50px 0px rgba(0,0,0,0.75);
 }
-/* PANEL MEDIAQUERIES  */
-@media (max-width: 480px ) {
-  
+@media (max-width:600px) {
+  .panel-aside {
+    width: 300px;
+    height: auto;
+  }
+}
+@media (max-width:480px) {
+  .panel-aside {
+    width: 100%;
+    height: auto;
+  }
 }
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
