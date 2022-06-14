@@ -380,7 +380,7 @@ nav .content .links{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center  ;
+  align-items: center;
   border-radius: 15px;
   background-color: #e4e3e3;
   padding: 2rem;
@@ -391,9 +391,48 @@ nav .content .links{
   margin-bottom: 25px;
 }
 .calendario-academico iframe{
-  width: 130vh;
-  height: 600;
-  border-radius: 0%;
+  width: 150vh;
+  height: 80vh;
+  border-radius: 15px;
+}
+/*Panel administrativo*/
+/*contenedor*/
+.container-panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  border-radius: 15px;
+  background-color: #e4e3e3;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+}
+/*button panel*/
+#panel-submit{
+  background-color: white;
+  border-radius: 2rem;
+  border: solid var(--blue-600);
+  transition: .5s;
+  cursor: pointer;
+}
+#panel-submit:hover {
+  color: white;
+  background-color: var(--blue-600);
+  transition-delay: 0s ;
+}
+/*contenido panel*/
+#panel-input{
+  background-color: white;
+  border-radius: 2rem;
+}
+.h2-admin{
+  margin-top: 50px;
+}
+.form-panel{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* ------------------ JULIAN --------------------*/
 /* Cartelera  */
@@ -573,7 +612,7 @@ iframe{
   padding: .8em 1em;
   outline: none;
   border: none;
-  border 1px solid 
+  /*border: 1px solid; */
   border-radius: 0.2em;
 }
 

@@ -18,13 +18,13 @@
       <div class="content">
       <div class="logo"><a href="#">Escuela N° 44</a></div>
         <ul class="links">
-          <li><a href="index.html">Inicio</a></li>
+          <li><a href="../../../index.html">Inicio</a></li>
           <li>
             <a href="#" class="desktop-link">Institución <i class="fa-solid fa-angle-down"></i></a>
             <input type="checkbox" id="show-features">
             <label for="show-features">Institución <i class="fa-solid fa-angle-down"></i></label>
             <ul>
-              <li><a href="src/pages/autoridades.html">Autoridades</a></li>
+              <li><a href="../autoridades.html">Autoridades</a></li>
               <li><a href="../institucion.html">Historia</a></li>
             </ul>
           </li>
@@ -33,36 +33,40 @@
             <input type="checkbox" id="show-services">
             <label for="show-services">Novedades <i class="fa-solid fa-angle-down"></i></label>
             <ul>
-              <li><a href="src/pages/cartelera.html">Cartelera</a></li>
-              <li><a href="src/pages/materialesdidacticos.html">Materiales Didácticos</a></li>
+              <li><a href="../cartelera.html">Cartelera</a></li>
+              <li><a href="../materialesdidacticos.html">Materiales Didácticos</a></li>
             </ul>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-  <main>
-    <h1>Panel de Administrador</h1>
-    <section>
+  <main class="container-panel">
+    <div class="h1-panel">
+      <h1>Panel de Administrador</h1>
+    </div>
+    <section class="h2-admin">
       <h2>Agregar Nueva noticia:</h2>
       <form action="">
-        <div>
+        <div class="form-panel">
           <label for="">Titulo</label>
-          <input type="text" placeholder="Ingresa el título aquí" required>
+          <input type="text" id="panel-input" placeholder="Ingresa el título aquí" required>
         </div>
-        <div>
+        <div class="form-panel">
           <label for="">Categorías:</label>
-          <select>
+          <select id="panel-input">
             <option>Noticia</option>
             <option>Trámites</option>
             <option>Noticia</option>
           </select>
         </div>
-        <div>
+        <div  class="form-panel">
           <label for="">Texto o mensaje:</label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <br>
+          <textarea name="" id="panel-input" cols="30" rows="10"></textarea>
         </div>
       </form>
+      <button type="submit" class="panel-submit" id="panel-submit">Publicar</button>
     </section>
   </main>
   <script src="https://kit.fontawesome.com/dab5819558.js"></script>
